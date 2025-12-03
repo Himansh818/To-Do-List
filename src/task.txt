@@ -1,0 +1,13 @@
+🚀 Project: AI Notes – Smart Notes Web App
+
+Tech Stack:
+
+Frontend: ReactJS
+
+Backend: Node + Express
+
+AI: OpenAI API
+
+Storage: LocalStorage (simple version) / MongoDB (advanced)
+
+Aaj hum Phase-1: React Frontend Setup + UI Design se start karte hain.
