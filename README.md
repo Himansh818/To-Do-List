@@ -2,7 +2,7 @@
 
 Ye ek simple React To-Do List project hai.
 
-[Live Demo](https://todolist-kohl-pi-97.vercel.app/)
+[Live Demo](https://to-do-list-blond-zeta-66.vercel.app/)
 
 ## Expanding the ESLint configuration
 
