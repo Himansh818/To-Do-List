@@ -1,28 +1,11 @@
 
 .card{
   animation: mover 2s ease infinite alternate;
+  background-color: #f39f3d;
+  backdrop-filter: blur(10px) saturate(180%);
+  background: rgba(255, 255, 255, 0.15); /* transparent white */
 }
-.card1{
-  animation: mover 2s ease 1s infinite alternate;
-}
-.card2{
-  animation: mover 2s ease 2s infinite alternate;
-}
-.card3{
-  animation: mover 2s ease 3s infinite alternate;
-}
-.card4{
-  animation: mover 2s ease 4s infinite alternate;
-}
-.card5{
-  animation: mover 2s ease 5s infinite alternate;
-}
-.card6{
-  animation: mover 2s ease 6s infinite alternate;
-}
-.card7{
-  animation: mover 2s ease 7s infinite alternate;
-}
+
 @keyframes mover {
   0%{
     transform: translateX(0px);
@@ -31,4 +14,13 @@
     transform: translateX(70px);
     transform: scale(1.1);
   }
+}
+.main{
+  background: linear-gradient(orange, blue);
+  background: url(../public/img2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.submit{
+  background-color: #52448f;
 }
