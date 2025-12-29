@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useState } from "react";
 
 const TaskContainer = ({ onedit, onDelete, onSave, tasks, editText, setEditText }) => {
+
+
+
   return (
     <div className="relative p-10 flex flex-wrap justify-center gap-x-10 top-4 gap-y-10 items-start">
       {tasks.map((task) => (
@@ -57,6 +60,9 @@ const TaskContainer = ({ onedit, onDelete, onSave, tasks, editText, setEditText 
               🗑
             </button>
           </div>
+          {
+            console.log(task.id)      
+          }
         </form>
       ))}
     </div>
