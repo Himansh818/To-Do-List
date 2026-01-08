@@ -1,0 +1,23 @@
+user ko profile dene se pehle ye check krna hota h
+ki user hai kaun - authentication
+
+1. user ko validate krana ki vo hamara user h ki nhi 
+or particular chije perform kr skta hai ki nhi apni 
+position ki base pr  
+
+
+user is not authorized to perform some tasks which are only 
+allowed to be executed by the admin 
+
+
+
+# server har bar bhul jata h ki ap kon ho to har bar apse har kaam 
+k liye puchega ki ap kon ho -- problem solved by 
+                          -- cookies and session concept
+
+### hme kuch chijein sikhni h 
+  ..cookies kese set krte h  -done
+  ..bcrypt kaise use krte hai for password encryption and decryption -done 
+  ..jwt kya h usme data kese store kre or bahar nikale 
+
+
